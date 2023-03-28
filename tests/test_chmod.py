@@ -4,7 +4,7 @@ import pytest
 
 from common import conn, SKIP_IF_CI, tempfile_containing, VFS
 from pathlib import Path
-from sftpretty import Connection, st_mode_to_int
+from gecko.sftpretty import Connection, st_mode_to_int
 
 
 def test_chmod_not_exist(sftpserver):

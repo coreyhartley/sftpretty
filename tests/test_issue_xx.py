@@ -2,7 +2,7 @@
 
 
 from common import conn, SKIP_IF_CI, VFS
-from sftpretty import Connection
+from gecko.sftpretty import Connection
 
 
 # this is the preferred test type as it can be run on the CI server and

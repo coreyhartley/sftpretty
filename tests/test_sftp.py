@@ -4,7 +4,7 @@
 
 from common import conn, SKIP_IF_CI, tempfile_containing, VFS
 from pathlib import Path
-from sftpretty import Connection
+from gecko.sftpretty import Connection
 from stat import S_ISLNK
 
 

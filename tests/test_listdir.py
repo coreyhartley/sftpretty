@@ -1,7 +1,7 @@
 '''test sftpretty.listdir'''
 
 from common import conn, VFS
-from sftpretty import Connection
+from gecko.sftpretty import Connection
 
 
 def test_listdir(sftpserver):

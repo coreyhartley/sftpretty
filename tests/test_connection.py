@@ -4,7 +4,7 @@ import pytest
 
 from common import conn, SKIP_IF_CI, SFTP_LOCAL, VFS
 from pathlib import Path
-from sftpretty import (CnOpts, Connection, ConnectionException,
+from gecko.sftpretty import (CnOpts, Connection, ConnectionException,
                        SSHException)
 
 

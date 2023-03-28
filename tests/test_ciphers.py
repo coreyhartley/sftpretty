@@ -4,7 +4,7 @@
 # being made and fixtures are already active connections.
 
 from common import SFTP_LOCAL, SKIP_IF_CI
-from sftpretty import CnOpts, Connection
+from gecko.sftpretty import CnOpts, Connection
 
 
 @SKIP_IF_CI

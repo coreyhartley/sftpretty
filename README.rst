@@ -23,7 +23,7 @@ Example
 -------
 .. code-block:: python
 
-    from sftpretty import CnOpts, Connection
+    from gecko.sftpretty import CnOpts, Connection
 
 
     # Basic

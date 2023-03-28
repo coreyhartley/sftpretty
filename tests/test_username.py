@@ -6,7 +6,7 @@ import pytest
 
 from common import conn, VFS
 from os import environ
-from sftpretty import Connection, CredentialException
+from gecko.sftpretty import Connection, CredentialException
 
 
 def test_username_specified(sftpserver):

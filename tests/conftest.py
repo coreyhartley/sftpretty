@@ -3,7 +3,7 @@
 import pytest
 
 from common import SFTP_LOCAL
-from sftpretty import Connection
+from gecko.sftpretty import Connection
 
 
 @pytest.fixture(scope="session")

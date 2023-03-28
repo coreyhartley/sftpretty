@@ -1,7 +1,7 @@
 '''test sftpretty.stat and .lstat'''
 
 from common import VFS, conn, SKIP_IF_CI
-from sftpretty import Connection
+from gecko.sftpretty import Connection
 
 
 def test_stat(sftpserver):

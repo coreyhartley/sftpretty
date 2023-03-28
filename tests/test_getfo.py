@@ -2,7 +2,7 @@
 
 from common import conn, VFS
 from io import BytesIO
-from sftpretty import Connection
+from gecko.sftpretty import Connection
 from unittest.mock import Mock
 
 

@@ -1,7 +1,7 @@
 '''test sftpretty.mkdir'''
 
 from common import VFS, conn, SKIP_IF_CI
-from sftpretty import Connection, st_mode_to_int
+from gecko.sftpretty import Connection, st_mode_to_int
 
 
 @SKIP_IF_CI

@@ -9,9 +9,9 @@ from paramiko import (hostkeys, SFTPClient, Transport,
                       PasswordRequiredException, SSHException,
                       DSSKey, ECDSAKey, Ed25519Key, RSAKey)
 from pathlib import Path, PurePath, PureWindowsPath
-from sftpretty.exceptions import (CredentialException, ConnectionException,
+from gecko.sftpretty.exceptions import (CredentialException, ConnectionException,
                                   HostKeysException, LoggingException)
-from sftpretty.helpers import _callback, hash, localtree, retry, st_mode_to_int
+from gecko.sftpretty.helpers import _callback, hash, localtree, retry, st_mode_to_int
 from socket import gaierror
 from stat import S_ISDIR, S_ISREG
 from tempfile import mkstemp

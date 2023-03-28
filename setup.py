@@ -17,16 +17,15 @@ LONG_DESCRIPTION += BUF
 DESCRIPTION = "Pretty secure file transfer made easy."
 
 setup(
-    name='sftpretty',
+    name='gecko-sftpretty',
     version='1.0.8',
 
-    packages=['sftpretty', ],
+    packages=['gecko.sftpretty', ],
 
-    install_requires=['paramiko>=1.17'],
+    install_requires=['paramiko>=2.9.2'],
 
     # metadata for upload to PyPI
     author='byteskeptical',
-    author_email='40208858+byteskeptical@users.noreply.github.com',
     description=DESCRIPTION,
     license='BSD',
     keywords='ftp scp sftp ssh',
@@ -34,13 +33,9 @@ setup(
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/x-rst',
     platforms=['any'],
-    download_url='https://pypi.python.org/pypi/sftpretty',
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: BSD License',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',

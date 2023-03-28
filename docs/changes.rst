@@ -1,7 +1,7 @@
 Change Log
 ==========
 
-1.0.8 (current, released 2023-03-27)
+1.0.8 (current, released 2023-03-28)
 ------------------------------------
     * remotetree no longer adds entire remote path when joining paths
     * localtree no longer adds entire local path when joining paths

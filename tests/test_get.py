@@ -4,7 +4,7 @@ import pytest
 
 from common import conn, tempfile_containing, VFS
 from pathlib import Path
-from sftpretty import Connection
+from gecko.sftpretty import Connection
 from unittest.mock import Mock
 
 

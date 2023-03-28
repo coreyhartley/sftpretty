@@ -3,7 +3,7 @@
 from common import conn, VFS
 from logging import getLogger
 from pathlib import Path
-from sftpretty import CnOpts, Connection
+from gecko.sftpretty import CnOpts, Connection
 
 
 def test_log_cnopts_explicit_false(sftpserver):
@@ -26,7 +26,7 @@ def test_log_cnopts_log_level(sftpserver):
     with sftpserver.serve_content(VFS):
         with Connection(**copts) as sftp:
             sftp.listdir()
-            log = getLogger('sftpretty')
+            log = getLogger('gecko.sftpretty')
             assert log.level == 40
 
 

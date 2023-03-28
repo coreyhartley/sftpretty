@@ -2,7 +2,7 @@
 
 from common import conn, rmdir, VFS
 from pathlib import Path
-from sftpretty import Connection, hash, localtree
+from gecko.sftpretty import Connection, hash, localtree
 from tempfile import mkdtemp
 
 

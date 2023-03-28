@@ -5,7 +5,7 @@ import pytest
 from contextlib import contextmanager
 from os import close, getenv
 from pathlib import Path
-from sftpretty import CnOpts
+from gecko.sftpretty import CnOpts
 from tempfile import mkstemp
 
 # pytest-sftpserver plugin information
@@ -16,7 +16,7 @@ SFTP_LOCAL = {'host': 'localhost', 'username': 'test', 'password': 'test1357'}
 # can only reach public, read-only server from CI platform, only test locally
 # if environment variable CI is set  to something to disable local tests
 # the CI env var is set to true by both drone-io and travis
-SKIP_IF_CI = pytest.mark.skipif(getenv('CI', '') > '', reason='Not Local')
+SKIP_IF_CI = pytest.mark.skipif(getenv('CI', 'x') > '', reason='Not Local')
 STARS8192 = '*'*8192
 
 

@@ -6,7 +6,7 @@ from common import conn, VFS
 from paramiko.hostkeys import HostKeys
 from paramiko.rsakey import RSAKey
 from pathlib import Path
-from sftpretty import CnOpts, Connection, HostKeysException, SSHException
+from gecko.sftpretty import CnOpts, Connection, HostKeysException, SSHException
 
 
 def test_remote_server_key(sftpserver):
